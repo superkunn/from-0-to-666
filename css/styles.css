@@ -1,0 +1,124 @@
+
+
+header{
+	width: 100%;
+	height: 30px;
+	/*;*/
+}
+
+.liuyan{
+	margin-left: 1200px;
+	width: 50px;
+	height: 25px;
+	/*background-color: red;*/
+}
+
+.logo{
+	margin: 0 20px 0 20px;
+	width: 1200;
+	height: 150px;
+	/*background-color: green;*/
+}
+
+.sousuo{
+	margin: 0 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
+	width: 1160;
+	height: 110px;
+	
+/*	background-color: blue;
+*/}
+
+.baidu{
+	float: left;
+	margin: 0 20px 20px 20px;
+
+}
+
+.sousuokuang{
+
+
+}
+.anniuqu{
+
+}
+
+
+.lianjie{
+	margin: 0 20px 0 20px;
+	width: 1200;
+	height: 150px;
+	/*background-color: yellow;*/
+}
+
+.school{
+	padding-left: 50px;
+	border:2px solid #a1a1a1;
+	/*background-color: blue;*/
+	width: 1150;
+	height: 100px;
+	border-radius: 30px;
+}
+.schoollink{
+	float: left;
+	margin: 20px 15px 20px 10px;
+	text-align:center;
+	border:2px solid #a1a1a1;
+	padding:10px 40px; 
+	background:#22A7F0;
+	width:75px;
+	height: 40px;
+	border-radius:25px;
+	-moz-border-radius:25px; /* 老的 Firefox */
+
+	transition:width 2s, height 2s;
+	-moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+	-webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+	-o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+
+	
+	animation:myfirst 7s;
+	-moz-animation:myfirst 7s; /* Firefox */
+	-webkit-animation:myfirst 7s; /* Safari and Chrome */
+	-o-animation:myfirst 7s; /* Opera */
+	
+}
+
+@keyframes myfirst
+{
+from {background:#87D37C;}
+to {background:#22A7F0;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {background:#87D37C;}
+to {background:#22A7F0;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {background:#87D37C;}
+to {background:#22A7F0;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {background:#87D37C;}
+to {background:#22A7F0;}
+}
+
+
+
+
+
+.schoollink:hover
+{
+width:75px;
+height:50px;
+transform:rotate(720deg);
+-moz-transform:rotate(720deg); /* Firefox 4 */
+-webkit-transform:rotate(720deg); /* Safari and Chrome */
+-o-transform:rotate(720deg); /* Opera */
+}
+
